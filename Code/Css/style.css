@@ -1,0 +1,159 @@
+body{
+       font-family: Arial, Helvetica, sans-serif;
+
+   }
+
+   /*----------------------------- navigation bar style------------*/
+header{
+   display: flex;
+   padding: 0 50%;
+   justify-content: space-between;
+ 
+}
+.product-nav{
+   display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 15px auto;
+}
+.product-nav h3{ margin: 0;}
+.product-nav a , main a {
+   color: #5762d5;
+   text-decoration: none;
+   transition-duration: 0.3s;
+}
+.product-nav a:hover, main a:hover{ 
+   color: #fb6376;
+   transition-duration: 0.3s;
+   
+} 
+.main-nav{
+     padding: 10px;
+   display: flex;
+      column-gap: 30px;
+    
+      }
+
+         a{
+             font-size: 20px;
+                color: #0d0d0e;
+                   font-family: Arial, Helvetica, sans-serif;
+                      text-decoration: none;
+         
+      }
+      .main-nav a:hover{
+         color: #fb6376;
+         transition-duration: 0.3s;
+      }
+     
+#selected{
+         color: #a70505;
+      }
+
+ 
+/*----------------Product Card---------------*/
+#product-intro{
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+         width: 1100px;
+         margin: auto;
+         gap: 30px 30px;
+      }
+.product-card{
+    background-color: #e9e6f0; 
+      border-radius: 20px;
+         width: 200px;
+         margin: auto;
+      }
+      .review-con{
+         opacity: 0%;
+         position: absolute;
+         margin: 70px 0 0 20px;
+         font-size: 18px;
+         font-weight: bold;
+         color: white;
+         z-index: 1;
+         transition-duration:0.3s;
+
+      }
+      .product-img{ 
+
+         
+         border-radius: 20px 20px 0 0;
+      }
+      
+/*--------------------- Introduction ----------------------------*/
+      input{ margin: 0 0 10px 0;}
+
+      #intro{
+        display: flex;
+        width: 1100px;
+        margin: 50px auto;
+        justify-content: space-between;
+
+      }
+    
+      #intro h1{font-size: 30px;}
+      #intro p{font-size: 18px;margin-bottom: 40px; color: #363535;}
+      #intro a {
+         background-color: rgb(72, 148, 240);
+         color: white;
+         padding: 5px 15px;
+         font-size: 22px;
+         font-weight: bold;
+         border-radius: 20px;
+         transition-duration: 0.3s;
+         display: block;
+         animation: slide-up 1s;
+      }
+      @keyframes slide-up{
+         0%{transform: translateY(40px);opacity: 0%;}
+         70%{transform: translate(-5px);}
+         100%{transform: translateY(0px); opacity: 100%;}
+      }
+
+   video{
+      width: 40%;
+      border-radius: 20px;
+   }
+/*----------------------Main content-------------------*/
+      /* #nav-cat{
+         background-color: coral;
+         width: 2rem;
+      } */
+
+      #final-ele aside  .title{color: #965151;}
+      #final-ele aside .text{color: #51a4aa;}
+
+
+      footer{
+         background-color: #2b2343;
+         height: 100px;
+         width: 100%;
+         color: white;
+         text-align: center;
+      } 
+
+
+
+      /*----------------------------- All cars---------------------------- */
+      #product-con{
+         width: 70%;
+         height: 900px;
+         margin: 50px auto;
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         gap: 30px;
+      }
+      
+      .cars{
+         background-color: #7474ec;
+         height: 100%;
+         width: 100%;
+       
+      }
+      @media(max-width: 1150px){
+         #intro h1{font-size: 30px;}
+
+      }

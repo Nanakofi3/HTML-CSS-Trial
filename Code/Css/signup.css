@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ /*----------------------------- navigation bar style-------------------------------*/
+
+ .main-nav{
+    background-color: #d6c5b4be;
+      padding: 10px;
+ }
+
+ .main-nav a{
+        font-size: 20px;
+           color: #0d0d0e;
+              font-family: Arial, Helvetica, sans-serif;
+                 text-decoration: none;
+                 transition-duration: 0.3s;
+    
+ }
+ .main-nav a:hover{
+    color: #fb6376;
+    transition-duration: 0.3s;
+ }
+
+#selected{
+    color: #1173cf85;
+ }
+/*---------------------Form---------------------------*/
+
+form{
+    width: 400px;
+    background-color: #eeeff1;
+    border: solid 1px #3c404a71;
+    border-radius: 15px;
+    color: black;
+    padding: 25px;
+    margin: 50px auto;
+}
+
+.field{
+    width: 93%;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+.field:focus{
+            outline: solid 2px #5762d5;
+}
+
+form a{
+    color: #5762d5;
+    text-decoration: none;
+}
+/*----------------------Signup button------------------------------------*/
+button{
+    width: 100%;
+    background-color: #5762d5;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 0;
+    font-size: 22px;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+button:hover{
+    background-color: #4751c0;
+    cursor: pointer;
+}
